@@ -1,0 +1,55 @@
+
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>El Laberinto del Tiempo</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f9;
+            color: #333;
+            text-align: center;
+            padding: 20px;
+        }
+        h1 {
+            color: #4CAF50;
+        }
+        p, ul {
+            font-size: 18px;
+        }
+        .hint {
+            margin-top: 30px;
+            font-size: 16px;
+            color: #555;
+        }
+        .hidden-text {
+            color: #f4f4f9; /* Camuflado con el fondo */
+        }
+    </style>
+</head>
+<body>
+    <h1>¡Bienvenido al Laberinto del Tiempo!</h1>
+    <p>Para avanzar, debes encontrar una pista oculta. Examina todo cuidadosamente.</p>
+
+    <div class="hint">
+        <p>Sugerencia: A veces, las respuestas están detrás de lo que puedes ver. Investiga más a fondo.</p>
+    </div>
+
+    <!-- Pista oculta en un comentario -->
+    <!-- La pista es: 1991 -->
+
+    <p>¿Buscas un número? Quizá esté en esta lista:</p>
+    <ul>
+        <li>1985</li>
+        <li>2000</li>
+        <li>2023</li>
+        <li>1995</li>
+    </ul>
+
+    <p class="hidden-text">1991</p> <!-- Texto camuflado -->
+
+    <button onclick="alert('Esto no es una pista... ¡Sigue buscando!')">¿Descubrir pista?</button>
+</body>
+</html>
